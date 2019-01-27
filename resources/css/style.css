@@ -1,0 +1,38 @@
+/* Global CSS Rules */
+html {
+	font-size: 16px;
+	background-color: white;
+}
+
+/* Header Rules */
+.header {
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	border-bottom: solid black 1px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+.header .logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.header p {
+	text-transform: uppercase;
+}
+
+.header .grey {
+	color: grey;
+}
+
+.header ul {
+	display: flex;
+}
+
+.header ul .pad {
+	margin-right: 1rem;
+
+
