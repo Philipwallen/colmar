@@ -4,6 +4,35 @@ html {
 	background-color: white;
 }
 
+.container {
+	background-color: #d3d3d3;
+}
+
+#white {
+	background-color: white;
+}
+
+.banner {
+	display: flex;
+	padding: 2rem 1.5rem;
+	border: solid red 1px;
+}
+
+.banner .left {
+	width: 60%;
+	margin-right: 1.5rem;
+	border: solid red 1px;
+}
+.left img {
+	max-width: 100%;
+}
+
+.right .banner-content {
+	max-width: 100%;
+}
+
+
+
 /* Header Rules */
 .header {
 	height: 4rem;
@@ -35,33 +64,13 @@ html {
 	margin-right: 1rem;
 }
 
-/*Learn Rules*/
 
-.container {
-	background-color: #d3d3d3;
-}
 
-.banner {
-	display: flex;
-	padding: 2rem 1.5rem;
-}
-
-.banner .left {
-	width: 60%;
-	padding-right: 1.5rem;
-}
-.left img {
-	max-width: 100%;
-}
-
+/* Learn Rules */
 .banner .right {
 	width: 40%;
 	display: flex;
 	align-items: space-around;
-}
-
-.right .banner-content {
-	max-width: 100%;
 }
 
 .banner-content h1 {
@@ -71,7 +80,7 @@ html {
 	padding-top: 1.5rem;
 }
 
-.banner-content p {
+.banner-content .info {
 	padding-bottom: 3rem;
 }
 
@@ -82,7 +91,52 @@ html {
 	text-align: center;
 	background-color: black;
 	width: 100%;
-
 }
 
 
+
+/* Practice Rules */
+.banner-image2 img,
+.banner-image2 .hiring,
+.banner-image2 p {
+	padding-bottom: 2rem;
+}
+
+.banner-image2 h2 {
+	padding-bottom: 1.5rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.banner-column .column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid red 1px;
+}
+
+.column img {
+	width: 35%;
+	padding: 0 1rem 1rem 0;
+	height: auto;
+}
+
+.column .column-content {
+	width: 65%;
+}
+
+#top-pad-me {
+	padding-top: 1rem;
+}
+
+.column h3 {
+	font-weight: bold;
+	font-size: .8rem;
+	margin-bottom: .5rem;
+}
+
+.column .column-info,
+.column .link {
+	font-size: .8rem;
+	margin-bottom: .5rem;
+}
