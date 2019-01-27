@@ -44,88 +44,45 @@ html {
 .banner {
 	display: flex;
 	padding: 2rem 1.5rem;
-
 }
-.banner-image img{
-	max-width: 60%;
+
+.banner .left {
+	width: 60%;
 	padding-right: 1.5rem;
-	border-right: solid red 1px;
+}
+.left img {
+	max-width: 100%;
 }
 
-.banner-content {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-
+.banner .right {
+	width: 40%;
+	display: flex;
+	align-items: space-around;
 }
 
-.banner-content .contents {
-	position: relative;
-	right: 91%;
-
+.right .banner-content {
+	max-width: 100%;
 }
 
 .banner-content h1 {
 	font-weight: bold;
 	font-size: 2.1rem;
-	padding-bottom: 1.5rem;
+	padding-bottom: 3rem;
+	padding-top: 1.5rem;
 }
 
 .banner-content p {
-	padding-bottom: 1.5rem;
+	padding-bottom: 3rem;
 }
 
 .banner-content span {
+	display: block;
 	padding: .5rem 0;
 	color: white;
 	text-align: center;
 	background-color: black;
+	width: 100%;
 
 }
 
-@media only screen and (min-width: 1024px) {
-	.banner-content .contents {
-		right: 94%;
-	}
-}
 
-/*
-
-.banner {
-	background-color: #D3D3D3;
-	display: flex;
-	flex-direction: row;
-	padding: 2rem 1.5rem;
-	border: solid red 1px;
-}
-
-
-.banner img {
-	width: 60%;
-	margin-right: 1.5rem;
-	border: solid red 1px;
-}
-
-.banner .move {
-	width: 40%;
-	border: solid red 1px;
-	text-align: left;
-}
-
-.banner-content h1 {
-	font-size: 1.5rem;
-	margin-bottom: 1.5rem;
-	font-weight: bold;
-	color: #a9a9a9;
-}
-
-.banner-content p {
-	margin-bottom: 1.2rem;
-}
-
-.banner-content span {
-	padding: 0.5rem ;
-	background-color: black;
-	color: #a9a9a9;
-
-}
