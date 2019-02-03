@@ -31,6 +31,17 @@ html {
 	max-width: 100%;
 }
 
+@media only screen and (max-width: 580px) {
+	.banner {
+		display: block;
+		padding: 0 0;
+		justify-content: center;
+	}
+	.banner .left {
+		width: 100%;
+	}
+
+}
 
 
 /* Header Rules */
@@ -64,6 +75,23 @@ html {
 	margin-right: 1rem;
 }
 
+.mobile .mobile-navigation {
+	display: none;
+}
+
+@media only screen and (max-width: 580px) {
+	.desktop {
+		display: none;
+	}
+	
+	.mobile .mobile-navigation {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 4rem;
+	}
+
+}
 
 
 /* Learn Rules */
@@ -93,7 +121,14 @@ html {
 	width: 100%;
 }
 
-
+@media only screen and (max-width: 580px) {
+	.banner .right {
+		width: 100%;
+		display: block;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
 
 /* Practice Rules */
 .banner-image2 img,
