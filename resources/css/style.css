@@ -123,10 +123,11 @@ html {
 
 @media only screen and (max-width: 580px) {
 	.banner .right {
-		width: 100%;
+		width: auto;
 		display: block;
 		padding-left: 1rem;
 		padding-right: 1rem;
+		padding-bottom: 2rem;
 	}
 }
 
@@ -174,6 +175,34 @@ html {
 .column .link {
 	font-size: .8rem;
 	margin-bottom: .5rem;
+}
+
+@media only screen and (max-width: 580px) {
+	#mobile-learn {
+		display: none;
+	}
+
+	.right .banner-content {
+		padding-top: 1rem;
+	}
+
+	.banner-column .column {
+		display: block;
+		background-color: white;
+	}
+
+	.banner-column .column img {
+		width: 100%;
+	}
+
+	.column-content h3 {
+		font-size: 1.5rem;
+	}
+
+	.column-content .column-info,
+	.column-content .link {
+		font-size: 1rem;
+	}
 }
 
 /* Learing Rules */
@@ -237,6 +266,8 @@ html {
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
+
+
 
 
 /* Thesis Content Rules */
