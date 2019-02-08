@@ -207,6 +207,10 @@ html {
 
 /* Learing Rules */
 
+.learning-mobile {
+	display: none;
+}
+
 .learning-container {
 	padding-left: 4.5rem;
 	padding-right: 4.5rem;
@@ -267,6 +271,24 @@ html {
 	margin-right: 2rem;
 }
 
+@media only screen and (max-width: 580px) {
+	.learning-container {
+		display: none;
+	}
+
+	.learning-mobile {
+		display: block;
+	}
+
+	.learning-mobile span {
+		display: flex;
+		background-color: #d3d3d3;
+		margin-bottom: .5rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding: 1rem 0 1.5rem 1rem;
+	}
+}
 
 
 
@@ -283,6 +305,12 @@ html {
 .banner-video p {
 	padding-top: .5rem;
 	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 580px) {
+	#thesis {
+		display: none;
+	}
 }
 
 /* Footer Content Rules */
@@ -306,4 +334,18 @@ html {
 
 .footer li {
 	padding-right: .5rem;
+}
+
+@media only screen and (max-width: 580px) {
+	.footer {
+		margin-top: -.5rem;
+	}
+
+	.footer .right {
+		display: none;
+	}
+
+	.footer .left {
+		margin-top: 1.5rem;
+	}
 }
