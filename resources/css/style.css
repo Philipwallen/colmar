@@ -106,7 +106,7 @@ html {
 	font-size: 2.1rem;
 	padding-bottom: 3rem;
 	padding-top: 1.5rem;
-	color: grey;
+	color: #505050;
 }
 
 .banner-content h1:hover {
@@ -115,7 +115,7 @@ html {
 
 .banner-content .info {
 	padding-bottom: 3rem;
-	color: grey;
+	color: #505050;
 }
 
 .banner-content span {
@@ -123,7 +123,7 @@ html {
 	padding: .5rem 0;
 	color: white;
 	text-align: center;
-	background-color: grey;
+	background-color: #505050;
 	width: 100%;
 }
 
