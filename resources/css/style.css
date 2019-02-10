@@ -106,10 +106,16 @@ html {
 	font-size: 2.1rem;
 	padding-bottom: 3rem;
 	padding-top: 1.5rem;
+	color: grey;
+}
+
+.banner-content h1:hover {
+	font-size: 2.5rem;
 }
 
 .banner-content .info {
 	padding-bottom: 3rem;
+	color: grey;
 }
 
 .banner-content span {
@@ -117,7 +123,7 @@ html {
 	padding: .5rem 0;
 	color: white;
 	text-align: center;
-	background-color: black;
+	background-color: grey;
 	width: 100%;
 }
 
@@ -128,6 +134,11 @@ html {
 		padding-left: 1rem;
 		padding-right: 1rem;
 		padding-bottom: 2rem;
+	}
+
+	.banner-content span:hover {
+		background-color: gold;
+		color: black;
 	}
 }
 
@@ -175,6 +186,14 @@ html {
 .column .link {
 	font-size: .8rem;
 	margin-bottom: .5rem;
+}
+
+.banner-column .column:hover {
+	background-color: #d3d3d3 ;
+}
+
+.right .learn-me {
+	font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 580px) {
@@ -233,7 +252,6 @@ html {
 	height: auto;
 	max-width: 100%;
 	margin-bottom: 1rem;
-	border: solid red 1px;
 	overflow: hidden;
 }
 
@@ -287,6 +305,11 @@ html {
 		margin-left: 1rem;
 		margin-right: 1rem;
 		padding: 1rem 0 1.5rem 1rem;
+		font-weight: bold;
+	}
+
+	.learning-mobile span:hover {
+		background-color: gold;
 	}
 }
 
@@ -307,10 +330,15 @@ html {
 	margin-bottom: 2rem;
 }
 
+.right .thesis {
+	font-size: 1.2rem;
+}
+
 @media only screen and (max-width: 580px) {
 	#thesis {
 		display: none;
 	}
+
 }
 
 /* Footer Content Rules */
